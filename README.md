@@ -33,9 +33,9 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:
 ## Launchfiles
 As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 
-[Vídeo da mapeamento](https://youtu.be/2Frr23Gh8b8)
+[Vídeo da mapeamento](https://youtu.be/WHxhn_I36Fk)
 
-[Vídeo da navegação](https://youtu.be/WHxhn_I36Fk)
+[Vídeo da navegação](https://youtu.be/2Frr23Gh8b8)
 
 
 
