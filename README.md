@@ -30,7 +30,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py use_sim_time:=True map:
 
 ```
 
-## Launchfiles
+### Launchfiles
 
 Para criar as launchfiles, execute os comandos:
 
@@ -80,7 +80,7 @@ As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 [ERROR] [launch]: Caught exception in launch (see debug for traceback): executable 'turtlebot3_world.launch.py' not found on the libexec directory '/home/hallzero/turtlebot3_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo' 
 ```
 
-## Vídeos
+### Vídeos
 
 [Vídeo da mapeamento](https://youtu.be/WHxhn_I36Fk)
 
@@ -88,7 +88,8 @@ As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 
 ## Ponderada 2 - Criando um Chatbot simples
 
-🚧 WIP 🚧
+
+
 
 ## Ponderada 3 - Chatbot com LLM: parte 1
 
@@ -117,3 +118,6 @@ Para lançar a interface que conversa com o modelo, utilizamos:
 ```bash
 gradio llm_interface.py
 ```
+
+### Vídeos
+🚧 WIP 🚧
