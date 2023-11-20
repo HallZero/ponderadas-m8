@@ -88,7 +88,7 @@ As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 
 ## Ponderada 2 - Criando um Chatbot simples
 
-
+🚧 WIP 🚧
 
 
 ## Ponderada 3 - Chatbot com LLM: parte 1
@@ -110,7 +110,7 @@ Utilizaremos o ollama para construção do modelo, utilizando o modelo dolphin2.
 Para criar o modelo, usamos o seguinte comando
 
 ```bash
-ollama create security -f Modelfile
+ollama create security -f modelfile
 ```
 
 Para lançar a interface que conversa com o modelo, utilizamos:
@@ -120,4 +120,5 @@ gradio llm_interface.py
 ```
 
 ### Vídeos
+
 🚧 WIP 🚧
