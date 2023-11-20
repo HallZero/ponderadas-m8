@@ -86,5 +86,34 @@ As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 
 [Vídeo da navegação](https://youtu.be/2Frr23Gh8b8)
 
+## Ponderada 2 - Criando um Chatbot simples
 
+🚧 WIP 🚧
 
+## Ponderada 3 - Chatbot com LLM: parte 1
+
+Para baixar as bibliotecas necessárias, utilizaremos o comando abaixo na pasta root do projeto:
+
+```bash
+pip install -r requirements.txt
+```
+
+Navegue até a pasta llm:
+
+```bash
+cd ./src/llm
+```
+
+Utilizaremos o ollama para construção do modelo, utilizando o modelo dolphin2.2-mistral
+
+Para criar o modelo, usamos o seguinte comando
+
+```bash
+ollama create security -f Modelfile
+```
+
+Para lançar a interface que conversa com o modelo, utilizamos:
+
+```bash
+gradio llm_interface.py
+```

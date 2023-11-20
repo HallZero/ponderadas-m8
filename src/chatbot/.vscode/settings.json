@@ -1,0 +1,14 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/hallzero/Code/ponderadas-m8/workspace/install/my_package/lib/python3.10/site-packages",
+    "/home/hallzero/Code/ponderadas-m8/workspace/install/chatbot/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/hallzero/Code/ponderadas-m8/workspace/install/my_package/lib/python3.10/site-packages",
+    "/home/hallzero/Code/ponderadas-m8/workspace/install/chatbot/lib/python3.10/site-packages",
+    "/opt/ros/humble/lib/python3.10/site-packages",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages"
+  ]
+}
