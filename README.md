@@ -122,3 +122,37 @@ gradio llm_interface.py
 ### Vídeos
 
 🚧 WIP 🚧
+
+## Ponderada 5 - Construção de um chatbot com LLM e RAG
+🚧 WIP 🚧
+
+## Ponderada 6 - Perceptron e portas lógicas
+
+### Implementação do Perceptron e Portas Lógicas
+
+O código para a implementação do Perceptron e portas lógicas está presente nos arquivos `perceptron.py` e `logic_ports.py`. Siga as instruções abaixo para executar o sistema.
+
+#### Passos para Executar o Perceptron e Portas Lógicas
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/ponderadas-m8.git
+   cd ponderadas-m8
+
+2. Certifique-se de ter Python instalado. Se não, baixe e instale o Python.
+3. Instale as dependências:
+```bash
+pip install numpy
+```
+3. Execute o código normalmente:
+```bash
+python perceptron.py
+```
+
+O script demonstra o treinamento do perceptron para reproduzir o comportamento das portas lógicas AND, OR e XOR.
+
+Observação: O perceptron é um modelo simples de rede neural que é eficaz para resolver problemas linearmente separáveis. Ele opera realizando uma combinação linear das entradas ponderadas pelos pesos e, em seguida, aplicando uma função de ativação para produzir a saída. No entanto, o perceptron tem limitações quando se trata de resolver problemas não lineares, como o caso da porta lógica XOR. Ao tentar treinar um perceptron para a porta XOR, o algoritmo de treinamento não consegue encontrar um conjunto de pesos e bias que produza a saída correta para todas as entradas. Isso ocorre porque a função de ativação do perceptron é uma função degrau, que é linear, e, portanto, não é adequada para resolver problemas não lineares.
+
+### Vídeos
+[Vídeo da implementação do perceptron com portas lógicas](https://youtu.be/NNUY2_luYzU)
