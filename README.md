@@ -1,6 +1,6 @@
 # ponderadas-m8
 
-## Ponderada 1 - Implementação de SLAM
+## Ponderada 2 - Implementação de SLAM
 
 Pré-requisitos - ROS2
 
@@ -86,12 +86,25 @@ As lauchfiles lançam os nós necessários para fazer o mapeamento e navegação
 
 [Vídeo da navegação](https://youtu.be/2Frr23Gh8b8)
 
-## Ponderada 2 - Criando um Chatbot simples
+## Ponderada 3 - Criando um Chatbot simples
 
-🚧 WIP 🚧
+Para rodar o chatbot, clone o repositório do projeto e navegue até a pasta chatbot e rode o programa:
+
+```bash
+
+git clone https://github.com/HallZero/ponderadas-m8.git
+
+cd src/chatbot/chatbot
+
+python chatbot.py
+```
+O chatbot funciona com um regex simples, que pega palavras chaves
+
+### Vídeos
+[Vídeo da implementação do chatbot com regex](https://youtu.be/LfekA_juCEo)
 
 
-## Ponderada 3 - Chatbot com LLM: parte 1
+## Ponderada 4 - Chatbot com LLM: parte 1
 
 Para baixar as bibliotecas necessárias, utilizaremos o comando abaixo na pasta root do projeto:
 
@@ -120,11 +133,28 @@ gradio llm_interface.py
 ```
 
 ### Vídeos
-
-🚧 WIP 🚧
+Original -> (Ollama e gradio (10+min without response))[https://youtu.be/yFhn2YFJ3rE]
+Alternativa (Mesmo com o streaming, a reposta era lenta) -> (Ollama e gradio com streaming)[https://youtu.be/WGrk6reJUK0]
 
 ## Ponderada 5 - Construção de um chatbot com LLM e RAG
-🚧 WIP 🚧
+Para a utilização do modelo juntamente com o RAG, foi criado um arquivo .txt a partir do site da [Deakin university](https://www.deakin.edu.au/students/study-support/faculties/sebe/abe/workshop/rules-safety).
+
+Vá até a pasta llm e rode o arquivo:
+
+```bash
+python rag.py
+```
+
+Entendendo o arquivo:
+
+1. Primeiro, lemos o documento através do TextLoader
+2. Em seguida, separamos o documento em chunks através do CharacterTextSplitter, que divide chunks de até 100 caracteres.
+3. Embeddings são geradas para cada chunk do documento utilizando o modelo all-MiniLM-L6-v2, que depois são armazenados no Chroma
+4. Criamos então um template de prompt
+5. Carregamos o Ollama com o modelo e criamos um chain processing
+
+### Vídeos
+
 
 ## Ponderada 6 - Perceptron e portas lógicas
 
