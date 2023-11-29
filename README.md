@@ -142,7 +142,7 @@ Para a utilização do modelo juntamente com o RAG, foi criado um arquivo .txt a
 Vá até a pasta llm e rode o arquivo:
 
 ```bash
-python rag.py
+python llm_interface2.py
 ```
 
 Entendendo o arquivo:
@@ -154,7 +154,7 @@ Entendendo o arquivo:
 5. Carregamos o Ollama com o modelo e criamos um chain processing
 
 ### Vídeos
-
+[LLM & RAG](https://youtu.be/gdoNknbJUUo)
 
 ## Ponderada 6 - Perceptron e portas lógicas
 

@@ -8,16 +8,22 @@ from langchain.document_loaders import TextLoader
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
+import torch
+
+torch.cuda.empty_cache() 
 
 loader = TextLoader("./safety_consideration.txt")
 document = loader.load()
 
 text_splitter = CharacterTextSplitter(
-    chunk_size=100,
+    chunk_size=300,
     chunk_overlap=0,
     length_function=len,
 )
 docs = text_splitter.split_documents(document)
+
+for doc in docs:
+    print(doc)
 
 embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
 
@@ -42,6 +48,8 @@ def generate_response(prompt):
     for s in chain.stream(prompt):
         print(s, end="", flush=True)
         msg += s
+        if '<|im_end|>' in msg:
+            break
         yield msg
 
 iface = gr.Interface(
