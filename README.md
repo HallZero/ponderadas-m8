@@ -133,8 +133,8 @@ gradio llm_interface.py
 ```
 
 ### Vídeos
-Original -> (Ollama e gradio (10+min without response))[https://youtu.be/yFhn2YFJ3rE]
-Alternativa (Mesmo com o streaming, a reposta era lenta) -> (Ollama e gradio com streaming)[https://youtu.be/WGrk6reJUK0]
+Original -> [Ollama e gradio (10+min without response)](https://youtu.be/yFhn2YFJ3rE)
+Alternativa (Mesmo com o streaming, a reposta era lenta) -> [Ollama e gradio com streaming](https://youtu.be/WGrk6reJUK0)
 
 ## Ponderada 5 - Construção de um chatbot com LLM e RAG
 Para a utilização do modelo juntamente com o RAG, foi criado um arquivo .txt a partir do site da [Deakin university](https://www.deakin.edu.au/students/study-support/faculties/sebe/abe/workshop/rules-safety).
