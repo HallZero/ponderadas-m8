@@ -186,3 +186,35 @@ Observação: O perceptron é um modelo simples de rede neural que é eficaz par
 
 ### Vídeos
 [Vídeo da implementação do perceptron com portas lógicas](https://youtu.be/NNUY2_luYzU)
+
+## Ponderada 7 - Classificação MNIST
+
+**Treinar e utilizar uma rede neural convolucional para classificar corretamente o dataset MNIST.**
+
+Este código em Python usa a biblioteca Keras para criar, treinar e avaliar um modelo de rede neural convolucional (CNN) para reconhecimento de dígitos manuscritos no conjunto de dados MNIST.
+
+Existem duas formas de rodar a classificação: Utilizando notebook ou rodando o script. Tenha certeza de instalar todas as dependencias do projeto (Keras, Numpy)
+
+Clone o repositório, se já não tiver feito:
+
+```bash
+
+git clone https://github.com/seu-usuario/ponderadas-m8.git
+
+```
+
+Navegue até a pesta mnist:
+
+```bash
+cd mnist
+```
+
+Utilizando o Notebook: Basta rodá-lo localmente (Jupyter, VSCode, etc.) ou com auxílio do Google Colab
+
+Script Python:
+```bash
+python3 neural_network.py
+```
+
+### Videos
+[Classificação MNIST](https://youtu.be/eE-CbDXTux8)
