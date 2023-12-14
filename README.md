@@ -203,7 +203,7 @@ git clone https://github.com/seu-usuario/ponderadas-m8.git
 
 ```
 
-Navegue até a pesta mnist:
+Navegue até a pasta mnist:
 
 ```bash
 cd mnist
@@ -218,3 +218,34 @@ python3 neural_network.py
 
 ### Videos
 [Classificação MNIST](https://youtu.be/eE-CbDXTux8)
+
+## Ponderada 8 - Tradutor de áudio
+
+**Criar uma aplicação que integra um tradutor de texto (pode ser baseado em LLM ou não), uma aplicação de speech-to-text e uma aplicação de text-to-speech.**
+
+Este código utiliza a API da OpenAI para transformar um arquivo de áudio em um arquivo de texto em inglês, que posteriormente será convertido novamente para áudio.
+
+Clone o repositório, se já não tiver feito:
+
+```bash
+
+git clone https://github.com/seu-usuario/ponderadas-m8.git
+
+```
+
+Navegue até a pasta STT_TTS:
+
+```bash
+cd STT_TTS
+```
+
+
+Rode o script Python:
+```bash
+python3 text_to_speech.py <caminho-absoluto-do-arquivo-de-audio>
+```
+
+Esse arquivo gerará dois arquivos, um de texto e outro de áudio, ambos em inglês.
+
+### Vídeos
+[Tradutor de áudio](https://youtu.be/9Yo7JD2ClCk)
